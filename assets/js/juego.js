@@ -11,8 +11,6 @@ const miModulo = (()=>{
     const tipos = ['C','D','H','S'], // almacena los tipos de carta
           especiales = ['A','J','Q','K']; // almacena la cartas j,q,k 
     
-    // let puntosJugador  = 0, 
-    //     puntosComputer = 0;
     let puntosJugadores = [];
     
     // Referencia HTML
@@ -41,8 +39,6 @@ const miModulo = (()=>{
         divCartaJugadores.forEach(elem => elem.innerHTML ='' );
         // divCartaComputadora.innerHTML='';    
     
-        // puntosJugador  = 0; 
-        // puntosComputer = 0;
     }     
     
     // funcion para crear una varaja
